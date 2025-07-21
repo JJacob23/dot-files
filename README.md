@@ -1,4 +1,4 @@
-# USING THE GIT REPO #
+# Using the git repo #
 
 To tell git to use the home directory as the working tree for the repo in $HOME/dotfiles, use this command to create an alias:
 
