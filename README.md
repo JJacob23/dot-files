@@ -5,6 +5,7 @@ To tell git to use the home directory as the working tree for the repo in $HOME/
 alias dotfiles='/usr/bin/git --git-dir=$HOME/dotfiles/ --work-tree=$HOME'
 
 Then, anytime you would call git, call dotfiles instead:
+
 dotfiles add .config/nvim/
 
 # Other NeoVim requirements #
