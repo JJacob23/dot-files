@@ -1,7 +1,7 @@
 return {
   {
     "neovim/nvim-lspconfig",
-    enabled = false,
+    enabled = true,
     dependencies = {
       {"folke/lazydev.nvim",
         ft = "lua",
@@ -34,7 +34,7 @@ return {
           },
           python = {
             analysis = {
-              venvPath = ".",
+              venvPath = "$HOME/CS584/venv/bin/activate",
               venv = ".venv",
             },
           },

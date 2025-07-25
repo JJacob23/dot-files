@@ -2,7 +2,8 @@ return {
   {
   'saghen/blink.cmp',
   -- optional: provides snippets for the snippet source
-  enabled = false,
+  enabled = true,
+  build = 'cargo build --release',
   dependencies = { 'rafamadriz/friendly-snippets' },
   version = '2.*',
   ---@module 'blink.cmp'
